@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/tictac_support.h
+string
+-
+
+/home/michael/CS/CS486/Proj1/src/tictac.cc
+stdio.h
+-
+tictac_support.h
+-
+
+/home/michael/CS/CS486/Proj1/src/tictac_support.cc
+tictac_support.h
+-
+iostream
+-
+fstream
+-
+iomanip
+-
+
+/home/michael/CS/CS486/Proj1/src/tictac_turnin.cc
+tictac_support.h
+-
+stdio.h
+-
+
